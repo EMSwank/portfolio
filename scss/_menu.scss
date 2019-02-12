@@ -14,4 +14,25 @@
     background: #fff;
     @include easeOut;
   }
+
+  // Menu line rotation animation
+
+  &.close {
+    transform: rotate(180deg);
+
+    .btn-line {
+      // Top line - rotate
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      // Middle Line - disappear
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      // Bottom line - rotate
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    }
+  }
 }

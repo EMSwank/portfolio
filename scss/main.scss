@@ -8,10 +8,11 @@
 
 body {
   @include background;
-  color: #fff;
+  background: $primary-color;
+  color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Source Code Pro", monospace;
   line-height: 1.5;
 }
 

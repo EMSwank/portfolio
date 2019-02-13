@@ -204,6 +204,12 @@ main {
     border: 3px #fff solid;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #ffc600;
+      color: black; }
+      .boxes div:hover span {
+        color: black; }
 
 .btn, .btn-dark, .btn-light {
   display: block;

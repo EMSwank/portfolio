@@ -122,13 +122,19 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 4rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
+    font-size: 1rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(28, 59, 81, 0.5); }
+
+p {
+  font-size: 1rem; }
+  p a {
+    text-decoration: underline; }
 
 a {
   color: #fff;

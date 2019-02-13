@@ -38,7 +38,7 @@
     height: 100vh;
     overflow: hidden; }
   .menu-nav {
-    margin: 0%;
+    margin: 0;
     padding: 0;
     background-color: #122736;
     list-style: none;
@@ -172,7 +172,9 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: .about-info .bio-image secondary-color 3px solid; }
+    border: .about-info .bio-image secondary-color 3px solid;
+    height: 250px;
+    width: 250px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
